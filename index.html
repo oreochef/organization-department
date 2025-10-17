@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四川农业大学组织部信息平台</title>
+    <link rel="stylesheet" href="/css.css">
+</head>
+<body>
+    <!--院徽 -->
+    <div class="badge">
+        <img src="/img/院徽.png" alt="">
+    </div>
+    <!-- 背景设置 -->
+     <div class="bgcontainer">
+        <div class="bg"></div>
+     </div>
+    <!-- 头部：标题+导航 -->
+    <header class="container">
+        <div>
+            <h1>四川农业大学团委组织部信息展示平台</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" onclick="showSection('introduce')">部门核心职能</a></li>
+                    <li><a href="#" onclick="showSection('structure')">部门组织架构</a></li>
+                    <li><a href="#" onclick="showSection('activity') ">部门活动</a></li>
+                    <li><a href="#" onclick="showSection('contact')">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <!-- 轮播图部分编写 -->
+    <div class="carousel">
+        <div class="carousel-inner">
+            <img src="/img/轮播1.jpg" alt="请检查网络连接后重试">
+            <img src="/img/轮播2.png" alt="请检查网络连接后重试">
+        </div>
+        <!-- 切换按钮 -->
+        <button class="carousel-btn btn-prev">&lt</button>
+        <button class="carousel-btn btn-next">&gt</button>
+        <!-- 指示点 -->
+         <div class="carousel-indicators">
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+         </div>
+    </div>
+
+    <main class="container introduceSection">
+
+        <!-- 部门核心职能 -->
+        <section id="introduce">
+
+            <!-- 部门介绍 -->
+            <div class="introduce">
+                <h2 style="text-align: center;">我们是什么？</h2>
+                <div style="text-indent: 2rem;"  id="introduce-text" class="text-carousel">
+                    <div class="text-item active">四川农业大学信息工程学院团委组织部是共青团组织中的重要职能部门，主要围绕团员青年的思想引领、组织建设等开展工作，具体职能通常包括：
+团员发展与管理：负责发展新团员，办理团员组织关系转接，管理团员档案，开展团员教育评议等。</div>
+<br>
+                    <div class="text-item">团组织建设：指导基层团支部建设，规范 “三会两制一课”（支部大会、支委会、团小组会，团员教育评议制度、团籍注册制度，团课）等组织生活制度的落实。
+团干部培养：选拔、培养和管理团干部，组织团干部培训，提升团干部的工作能力和综合素质。
+推优入党工作：按照党组织要求，推荐优秀团员作为党的发展对象，协助党组织做好青年党员的培养储备工作。</div>
+<br>
+                    <div class="text-item">推优入党工作：按照党组织要求，推荐优秀团员作为党的发展对象，协助党组织做好青年党员的培养储备工作。</div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- 部门工作 -->
+             <div class="work">
+                <h2 style="text-align: center;">我们的工作有什么？</h2>
+                <img src="/img/工作内容.png" alt="抱歉……图片加载失败" style="margin: 0 auto;">
+                <div></div>
+             </div>
+
+             <br>
+             <br>
+             <br>
+
+             <!-- 部门工作环境氛围 -->
+              <div id="environment">
+                <h2 style="text-align: center;">我们的部门氛围怎么样？</h2>
+                <div class="environment">
+                    <img src="/img/部门氛围/3523315bafb11d92aceda9ea0fdc047c.jpg" alt="">
+                    <img src="/img/部门氛围/5e4693d2bcdd2e764795cd3272f69e7f.png" alt="">
+                    <img src="/img//部门氛围/834da75bec041a9119b2a04fa85795df.png" alt="">
+                    <img src="/img//部门氛围/9B8E4FADDCC6A6FA90394F2CFA1CE1E5.png" alt="">
+                </div>
+              </div>
+              <br>
+              <br>
+
+        </section>
+
+        <!-- 部门组织架构 -->
+        <section id="structure" class="hidden">
+            
+            <!-- 成员展示 -->
+            <div>
+                <h2>成员组织架构</h2>
+            </div>
+
+        </section>
+
+        <!-- 部门活动 -->
+         <section id="activity" class="hidden">
+            
+            <!-- 参与的活动 -->
+             <div>
+                <h1 style="text-align: center;">部门活动展示</h1>
+             </div>
+
+             <div class="ongoingActivity">
+                <h2 style="padding-left: 10px;">正在进行中的部门活动~</h2>
+                <div>
+                    <a href="https://xxgc.sicau.edu.cn/info/1043/11415.htm">
+                        <h3>信息工程学院关于做好2025年秋季学期团员发展工作的通知</h3>
+                    </a>
+                </div>
+             </div>
+
+         </section>
+
+         <!-- 联系方式和意见反馈 -->
+          <section id="contact" class="hidden">
+
+            <!-- 联系方式 -->
+             <div>
+                <h2>我们的联系方式</h2>
+             </div>
+
+
+             <div>
+                <h2>您对我们的宝贵意见</h2>
+                <!-- 意见反馈区域 -->
+                <div>
+                    <input type="text" placeholder="您的意见……">
+                    <button>提交</button>
+                    <button>重置</button>
+                </div>
+             </div>
+          </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <p>四川农业大学信息工程学院组织部信息展示平台 &copy; 2025</p>
+        </div>
+    </footer>
+
+    <script src="/js.js"></script>
+    
+</body>    
+</html>
